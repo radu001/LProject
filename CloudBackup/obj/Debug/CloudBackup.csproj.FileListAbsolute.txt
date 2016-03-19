@@ -1,0 +1,2 @@
+D:\Dev\Licenta-workspace\CloudBackup\CloudBackup\bin\Debug\CloudBackup.exe.config
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\bin\Debug\CloudBackup.exe.config
