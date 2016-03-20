@@ -5,8 +5,73 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CloudBackup.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignWidth="700">
+    <UserControl.Resources>
+        <Style x:Key="Link" TargetType="{x:Type Button}">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <TextBlock TextDecorations="Underline" 
+							Text="{TemplateBinding Content}"
+							Background="{TemplateBinding Background}"/>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Foreground" Value="Red"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid>
-            
+        <Expander x:Name="expander" Header="Backup Plan Name" HorizontalAlignment="Left" VerticalAlignment="Top" Width="700" Margin="0,0,0,0" Background="#FFC3C3C3" BorderBrush="Black">
+            <Expander.Resources>
+                <Style x:Key="Link" TargetType="Button">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="Foreground" Value="Blue"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <TextBlock TextDecorations="Underline" 
+                    Text="{TemplateBinding Content}"
+                    Background="{TemplateBinding Background}"/>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter Property="Foreground" Value="Red"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Expander.Resources>
+            <Grid Background="#FFE5E5E5" Height="229" Margin="0,0,0,0">
+                <Border BorderBrush="Black" BorderThickness="1" Margin="5,5,5,27">
+                    <Grid Margin="0,0,0,0">
+                        <Label x:Name="label" Content="Backup:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_Copy" Content="Schedule:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_Copy1" Content="Current Status" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_Copy2" Content="Last Run" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_Copy3" Content="Last Result" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="label_Copy4" Content="Backup Duration:" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+                    </Grid>
+                </Border>
+                <Button x:Name="button" Content="Edit Backup Plan"  Style="{StaticResource Link}" Margin="0,201,587,0" HorizontalAlignment="Right" RenderTransformOrigin="0.5,2.5"/>
+                <Button x:Name="button_Copy" Content="Delete Backup Plan"  Style="{StaticResource Link}" Margin="0,201,464,0" HorizontalAlignment="Right" RenderTransformOrigin="0.196,0.688"/>
+                <Button x:Name="button_Copy1" Content="Restore files"  Style="{StaticResource Link}" Margin="0,201,372,0" HorizontalAlignment="Right"/>
+                <Button x:Name="button_Copy2" Content="View History"  Style="{StaticResource Link}" Margin="0,201,286,0" HorizontalAlignment="Right"/>
+                <Button x:Name="button1" Content="Run backup Now" HorizontalAlignment="Left" Margin="571,207,0,0" VerticalAlignment="Top" Width="99"/>
+            </Grid>
+        </Expander>
+
     </Grid>
 </UserControl>
