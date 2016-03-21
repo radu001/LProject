@@ -17,4 +17,15 @@ F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\CloudBackup.pdb
 F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\GeneratedInternalTypeHelper.g.cs
 F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\Controls\CloudInfo.g.cs
 F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\Controls\CloudInfo.baml
-F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\CloudBackup.Images.Resource1.resources
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\HomeView.g.cs
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\HomeView.baml
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\BackupPlansView.g.cs
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\BackupPlansView.baml
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\BackupFilesView.g.cs
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\BackupFilesView.baml
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\SettingsView.g.cs
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\SettingsView.baml
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\AboutView.g.cs
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\AboutView.baml
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\CloudBackupsView.g.cs
+F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\obj\Debug\View\CloudBackupsView.baml

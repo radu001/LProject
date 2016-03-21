@@ -4,8 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CloudBackup.Controls"
-             mc:Ignorable="d" 
-             d:DesignHeight="150" d:DesignWidth="250">
+             mc:Ignorable="d">
     <Grid Margin="0,0,0,0">
         <Image x:Name="image" HorizontalAlignment="Left" Height="70" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/Resources/Dropbox-Icono-e1303535371159.jpg"/>
         <Label x:Name="label" Content="My Dropbox acc" HorizontalAlignment="Left" Margin="80,27,0,0" VerticalAlignment="Top" Width="116" FontSize="14.667"/>
