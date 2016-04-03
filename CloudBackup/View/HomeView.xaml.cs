@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CloudBackup.AddCloud.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace CloudBackup.View
         public HomeView()
         {
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            AddCloudWindow addCloudWindow = new AddCloudWindow();
+            addCloudWindow.ShowDialog();
         }
     }
 }

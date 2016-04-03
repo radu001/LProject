@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 F:\Dev\Licenta-workspace\CloudBackup\CloudBackup\App.xaml
-9-1587978068
+12-1389641181
 
-171933652822
-14-1001767708
-Controls\BackupPlan.xaml;Controls\CloudInfo.xaml;MainWindow.xaml;View\AboutView.xaml;View\BackupFilesView.xaml;View\BackupPlansView.xaml;View\CloudBackupsView.xaml;View\HomeView.xaml;View\SettingsView.xaml;
+221716876377
+181000748100
+AddCloud\View\AddCloudWindow.xaml;AddCloud\View\AuthPage.xaml;AddCloud\View\SelectCloudPage.xaml;Controls\BackupPlan.xaml;Controls\CloudInfo.xaml;MainWindow.xaml;View\AboutView.xaml;View\BackupFilesView.xaml;View\BackupPlansView.xaml;View\CloudBackupsView.xaml;View\HomeView.xaml;View\SettingsView.xaml;
 
-True
+False
 

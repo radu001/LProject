@@ -9,7 +9,7 @@
              mc:Ignorable="d">
     <Grid Background="#FFE5E5E5" Margin="0,2,4,2">
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="178" Margin="0,247,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="774"/>
-        <Button x:Name="button" Content="Add Cloud" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="111"/>
+        <Button x:Name="button" Content="Add Cloud" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="111" Click="button_Click"/>
         <Button x:Name="button_Copy" Content="Add Backup Plan" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="111"/>
         <Button x:Name="button_Copy2" Content="Run All Plans Now" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="111"/>
         <Label x:Name="label" Content="Logs:" HorizontalAlignment="Left" Margin="0,222,0,0" VerticalAlignment="Top"/>

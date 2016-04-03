@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CloudBackup.Clouds;
+using Dropbox.Api;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,8 @@ namespace CloudBackup
         public MainWindow()
         {
             InitializeComponent();
+
+            new DropBoxController();
         }
     }
 }
